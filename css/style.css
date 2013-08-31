@@ -1,0 +1,325 @@
+
+#page_body {
+    display: block;
+    padding: 25px 0;
+}
+
+.container_12, .container_16 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}
+.container_12 .grid_12, .container_16 .grid_16 {
+    width: 940px;
+}
+form .input, form .textarea, form .date-input, .survey_build .input, .survey_build .textarea, .survey_build .date-input {
+    background: url("../images/input.jpg") repeat-x scroll left top #FFFFFF;
+    border: 1px solid #999999;
+    font-size: 18px;
+    padding: 2px;
+}
+form .date-input, .survey_build .date-input {
+    margin-right: 5px;
+    text-align: center;
+    width: 140px;
+}
+.survey_build #save_indicator {
+    margin: 20px 0 20px 6px;
+}
+.survey_build .qtype {
+    background: url("../images/qtypes/btnbg.png") no-repeat scroll left 0 transparent;
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 42px;
+    margin-bottom: 2px;
+    margin-right: 2px;
+    padding-top: 10px;
+    text-align: center;
+    vertical-align: middle;
+    width: 52px;
+}
+.survey_build .qtype:hover {
+    background: url("../images/qtypes/btnbg.png") no-repeat scroll left -53px transparent;
+    color: #000000;
+}
+.survey_build #qt_single span {
+    background: url("../images/qtypes/single.png") no-repeat scroll 5px top transparent;
+}
+.survey_build #qt_multiple span {
+    background: url("../images/qtypes/multiple.png") no-repeat scroll 5px top transparent;
+}
+.survey_build #qt_string span {
+    background: url("../images/qtypes/string.png") no-repeat scroll 5px top transparent;
+}
+.survey_build #qt_text span {
+    background: url("../images/qtypes/text.png") no-repeat scroll 5px top transparent;
+}
+.survey_build #qt_list span {
+    background: url("../images/qtypes/list.png") no-repeat scroll 5px top transparent;
+}
+.survey_build #qt_dropdown span {
+    background: url("../images/qtypes/dropdown.png") no-repeat scroll 5px top transparent;
+}
+.survey_build #qt_rating span {
+    background: url("../images/qtypes/rating.png") no-repeat scroll 5px top transparent;
+}
+.survey_build #qt_name span {
+    background: url("../images/qtypes/name.png") no-repeat scroll 5px top transparent;
+}
+.survey_build #qt_email span {
+    background: url("../images/qtypes/email.png") no-repeat scroll 5px top transparent;
+}
+
+.survey_pages {
+    clear: both;
+    margin-bottom: 5px;
+    overflow: hidden;
+    padding: 5px 0;
+}
+
+.survey_contents {
+    border: 1px solid #99B5BF;
+    box-shadow: 0 0 10px #CCCCCC;
+    margin-bottom: 8px;
+    min-height: 400px;
+    padding: 0;
+}
+
+.survey_build .questions_list {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+.survey_build .questions_list .ui-sortable-helper {
+    border: 2px dashed #99B5BF !important;
+    cursor: move;
+}
+.survey_build .questions_list .ui-sortable-helper .edit_links {
+    display: none;
+}
+.survey_build .questions_list .ui-state-highlight {
+    background: none repeat scroll 0 0 #CCDCE2;
+    border-radius: 3px 3px 3px 3px;
+    height: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.survey_build .questions_list li {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+.survey_build .questions_list li.quest_node {
+    border-bottom: 1px solid #CCDCE2;
+}
+.survey_build .q_build {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: -moz-use-text-color #6E8993 #6E8993;
+    border-image: none;
+    border-right: 1px solid #6E8993;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    box-shadow: 0 1px 2px #999999;
+    display: none;
+    margin: 10px;
+}
+
+.survey_build .q_build .header {
+    background: url("../images/q_title.jpg") repeat-x scroll left bottom #5E7C87;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 12px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.survey_build .q_build .header .first_line {
+    clear: both;
+    overflow: hidden;
+}
+
+.survey_build .q_build .variants {
+    padding: 10px 20px;
+}
+.survey_build .q_build .variants .variant  {
+    background: url("../images/icons/pan.png") no-repeat scroll left center transparent;
+    margin-bottom: 4px;
+    padding-left: 24px;
+}
+.survey_build .q_build .variants .variant_n  {
+    background: url("../images/icons/pan.png") no-repeat scroll left center transparent;
+    margin-bottom: 4px;
+    padding-left: 24px;
+}.survey_build .q_build .variants  {
+    background: url("../images/icons/pan.png") no-repeat scroll left center transparent;
+    margin-bottom: 4px;
+    padding-left: 24px;
+}
+.survey_build .q_build .variants .input  {
+    font-size: 14px;
+    width: 90%;
+}
+.survey_build .q_build .variants .variant_n .input  {
+    font-size: 14px;
+    width: 90%;
+}.survey_build .q_build .variants .variant_k .input  {
+    font-size: 14px;
+    width: 90%;
+}
+.survey_build .q_build .variants_n {
+    padding: 10px 20px;
+}
+.survey_build .q_build .variants_n .variant  {
+    background: url("../images/icons/pan.png") no-repeat scroll left center transparent;
+    margin-bottom: 4px;
+    padding-left: 24px;
+}
+.survey_build .q_build .variants_n .variant_n  {
+    background: url("../images/icons/pan.png") no-repeat scroll left center transparent;
+    margin-bottom: 4px;
+    padding-left: 24px;
+}.survey_build .q_build .variants_n  {
+    background: url("../images/icons/pan.png") no-repeat scroll left center transparent;
+    margin-bottom: 4px;
+    padding-left: 24px;
+}
+.survey_build .q_build .variants_n .input  {
+    font-size: 14px;
+    width: 90%;
+}
+.survey_build .q_build .variants_n .variant_n .input  {
+    font-size: 14px;
+    width: 90%;
+}.survey_build .q_build .variants_n .variant_k .input  {
+    font-size: 14px;
+    width: 90%;
+}
+
+.actions_context {
+    display: inline-block;
+    overflow: hidden;
+}
+.survey_build .q_build .variants_actions {
+    margin-bottom: 10px;
+    margin-left: 43px;
+}
+
+.buttons {
+    background: none repeat scroll 0 0 #ECECEC;
+    border-top: 1px solid #DDDDDD;
+    overflow: hidden;
+    padding: 10px;
+    text-align: right;
+}
+
+.survey_build .q_build .buttons .cancel {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.survey_build .q_build a {
+    color: #666666;
+    font-size: 12px;
+    text-decoration: none;
+}
+a {
+    color: #0099CC;
+}
+.survey_build .q_build a:hover {
+    color: #FF6600;
+    text-decoration: underline;
+}
+
+.survey_build .q_view .number {
+    background-color: #ECECEC;
+    border-radius: 0 45px 45px 0;
+    color: #777777;
+    display: block;
+    float: left;
+    font-size: 12px;
+    height: 24px;
+    line-height: 24px;
+    margin-top: 1px;
+    text-align: center;
+    width: 30px;
+}
+
+
+.mod {
+    float: left;
+    padding-right: 83px;
+    padding-top: 17px;
+}
+.mod li {
+    float: left;
+    list-style: none outside none;
+    padding-right: 25px;
+    position: relative;
+}
+.mod li li {
+    float: none;
+}
+.mod li ul {
+    padding: 0 0 4px 7px;
+}
+.mod li li a {
+    color: #464646;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.mod li a {
+    font: bold 14px Tahoma,Arial,san-serif;
+    position: relative;
+    z-index: 2;
+}
+.models li .opr {
+    background: url("/forum/new_design/images/dropdown_menu.png") no-repeat scroll 0 0 transparent;
+    display: none;
+    height: 129px;
+    left: -11px;
+    padding: 38px 0 0 9px;
+    position: absolute;
+    top: -6px;
+    width: 129px;
+}
+/*.ui-state-default
+{
+padding:3px;
+height:16px ;
+width:16px;
+float:left;
+margin:5px;
+border-color:grey;
+}*/
+h1.sitename {
+    color: #000000;
+    font-size: 2em;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #425768;
+    margin-top: 0;
+}
+h1 {
+    font-weight: normal;
+}
+h2  {
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+.survey_build .q_view:hover .number {
+    background-color: #6E8993;
+    color: #FFFFFF;
+}
+.survey_build .q_view .edit_links a.edit {
+    background: url("../images/icons/pencil.png") no-repeat scroll left center transparent;
+}
+.survey_build .q_view:hover .edit_links a {
+    visibility: visible;
+}
